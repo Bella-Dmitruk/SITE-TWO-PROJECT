@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../SITE-TWO-PROJECT/scss/dist/style.css">
+    <link rel="stylesheet" href="splide-3.2.2/dist/css/splide.min.css">
 </head>
 <body>
+    
     <header class="main-section container">
   <div class="hwrapper h_line">
         <nav class="header-nav">
@@ -26,7 +28,19 @@
                 RU | ENG
             </div>
         </div>
-       <div class="header-image"></div>
+        <div class="splide1 header-image">
+        <div class="splide__track ">
+              <ul class="splide__list header-image">
+                  <li class="splide__slide  headerimage0"></li>
+                  <li class="splide__slide  headerimage1 "></li>
+                  <li class="splide__slide  headerimage2"></li>
+                  <li class="splide__slide  headerimage3"></li>
+                  <li class="splide__slide  headerimage4"></li>
+                  <li class="splide__slide  headerimage5"></li>
+              </ul>
+        </div>
+      </div>
+    
     </header>
     <section class="about-me container" >
         
@@ -47,7 +61,72 @@
         <div class="skills-main-content">
             <p class="skills-text">I work in such programs as</p>
         </div>
-        <div class="skills-icon-block-wrapper">
+        <div class="splide skills-icon-block-wrapper">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide ">
+                        <div class="skills-icon-block">
+                            <img src="./img/skills-image1.png" alt="1" class="skills-image">
+                            <p class="skills-image-text">Adobe Photoshop</p>
+                            <p>★★★★☆</p>
+                        </div> 
+                    </li>
+                    <li class="splide__slide ">
+                        <div class="skills-icon-block">
+                            <img src="./img/skills-image2.png" alt="2" class="skills-image">
+                            <p class="skills-image-text">Adobe Illustrator</p>
+                            <p>★★★★☆</p>
+                        </div>    
+                    </li>
+                    <li class="splide__slide "> 
+                        <div class="skills-icon-block">
+                            <img src="./img/skills-image3.png" alt="3" class="skills-image">
+                            <p class="skills-image-text">Adobe After Effects</p>
+                            <p>★★★★☆</p>
+                        </div>      
+                    </li>
+                    <li class="splide__slide "> 
+                        <div class="skills-icon-block">
+                            <img src="./img/skills-image4.png" alt="4" class="skills-image figma">
+                            <p class="skills-image-text">Figma</p>
+                            <p>★★★★☆</p>
+                        </div>  
+                    </li>
+                    <li class="splide__slide "> 
+                        <div class="skills-icon-block">
+                            <img src="./img/skills-image1.png" alt="1" class="skills-image">
+                            <p class="skills-image-text">Adobe Photoshop</p>
+                            <p>★★★★☆</p>
+                        </div>  
+                    </li>
+                    <li class="splide__slide "> 
+                        <div class="skills-icon-block">
+                            <img src="./img/skills-image1.png" alt="1" class="skills-image">
+                            <p class="skills-image-text">Adobe Photoshop</p>
+                            <p>★★★★☆</p>
+                        </div>  
+                    </li>
+                    <li class="splide__slide "> 
+                        <div class="skills-icon-block">
+                            <img src="./img/skills-image1.png" alt="1" class="skills-image">
+                            <p class="skills-image-text">Adobe Photoshop</p>
+                            <p>★★★★☆</p>
+                        </div>  
+                    </li>
+                    <li class="splide__slide "> 
+                        <div class="skills-icon-block">
+                            <img src="./img/skills-image1.png" alt="1" class="skills-image">
+                            <p class="skills-image-text">Adobe Photoshop</p>
+                            <p>★★★★☆</p>
+                        </div>  
+                    </li>
+                </ul>
+            </div>
+        </div>
+    <script src="splide-3.2.2/dist/js/splide.min.js"></script>
+    <script src="script.js"></script>
+
+        <!-- <div class="skills-icon-block-wrapper">
         <div class="skills-icon-block">
             <img src="./img/skills-image1.png" alt="1" class="skills-image">
             <p class="skills-image-text">Adobe Photoshop</p>
@@ -67,7 +146,7 @@
             <img src="./img/skills-image4.png" alt="4" class="skills-image figma">
             <p class="skills-image-text">Figma</p>
             <p>★★★★☆</p>
-        </div>
+        </div> -->
         
     </div>
     </section>
@@ -109,6 +188,6 @@
         <p class="footter__greytext">Like me on <br> LinkedIn, Instagram, Behance, Dribble</p>
     </div>
    </footer>
-
+  
 </body>
 </html>
